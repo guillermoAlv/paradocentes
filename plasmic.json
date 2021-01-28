@@ -1,0 +1,70 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/public/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "./src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "n4pfuTJzKZyYNcHh1Z3PUs",
+      "projectName": "Newsletter",
+      "version": "latest",
+      "cssFilePath": "plasmic/newsletter/plasmic_newsletter.module.css",
+      "components": [
+        {
+          "id": "oR5vUmdsnu",
+          "name": "MainPage",
+          "type": "managed",
+          "projectId": "n4pfuTJzKZyYNcHh1Z3PUs",
+          "renderModuleFilePath": "plasmic/newsletter/PlasmicMainPage.jsx",
+          "importSpec": {
+            "modulePath": "MainPage.jsx"
+          },
+          "cssFilePath": "plasmic/newsletter/PlasmicMainPage.module.css",
+          "scheme": "blackbox"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "aiF3UZKzi",
+          "name": "perello.png",
+          "filePath": "plasmic/newsletter/images/perellopng.png"
+        },
+        {
+          "id": "my142E6Wd",
+          "name": "rounded_syp.jpg",
+          "filePath": "plasmic/newsletter/images/roundedSypjpg.jpeg"
+        }
+      ],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "cb7DakWXTXNx",
+        "name": "Screen",
+        "projectId": "n4pfuTJzKZyYNcHh1Z3PUs",
+        "contextFilePath": "plasmic/newsletter/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.94",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.94/dist/plasmic.schema.json"
+}

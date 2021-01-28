@@ -1,10 +1,8 @@
 import React from "react"
+import ScreenContext from "../components/plasmic/newsletter/PlasmicGlobalVariant__Screen"
+import MainPage from "../components/MainPage"
 const NoData = () => (
-  <section>
-    <h1>This Page Was Created Programmatically</h1>
-    <p>
-      No data was required to create this page — it’s just a React component!
-    </p>
-  </section>
+  <ScreenContext.Provider>
+  <MainPage/></ScreenContext.Provider>
 )
 export default NoData

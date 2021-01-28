@@ -32,12 +32,14 @@ exports.createPages = async ({ actions: { createPage },  graphql}) => {
 
   // loop through WordPress pages and create a Gatsby page for each one
   pages.forEach(page => {
+    console.log("EEEEEE")
     console.log(page)
     createPage({
       path: page.uri,
       component: require.resolve("./src/templates/page-template.js"),
       context: {
         id: page.id,
+        jj: page.id,
       },
     })
   })
